@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name SmartDimmer-rescue)(type Legacy)(uri ${KIPRJMOD}/SmartDimmer-rescue.lib)(options "")(descr ""))
+  (lib (name ESP32-footprints-Shem-Lib)(type Legacy)(uri ${KIPRJMOD}/ESP32-footprints-Shem-Lib.lib)(options "")(descr ""))
+  (lib (name DimmerComponent)(type Legacy)(uri ${KIPRJMOD}/DimmerComponent.lib)(options "")(descr ""))
+)
