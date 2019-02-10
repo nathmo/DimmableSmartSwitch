@@ -10,6 +10,14 @@
   )
 
   (page A4)
+  (title_block
+    (title SmartDimmer)
+    (date 2019-02-10)
+    (rev 1)
+    (company ApertureScience)
+    (comment 1 "Auteur : Nathann Morand")
+  )
+
   (layers
     (0 F.Cu signal hide)
     (31 B.Cu signal hide)
@@ -63,7 +71,7 @@
     (grid_origin 80 110)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
+      (layerselection 0x31030_ffffffff)
       (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -84,9 +92,9 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 4)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
       (outputdirectory ""))
   )
