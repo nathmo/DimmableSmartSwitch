@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Nathann\Documents\Projet\DimmableSmartSwitch\SmartDimmer.sch</source>
+    <date>07.02.2019 11:28:24</date>
+    <tool>Eeschema (5.0.1)-4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SmartDimmer.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ESP32-WROOM</value>
+      <footprint>ESP32-footprints-Lib:ESP32-WROOM</footprint>
+      <libsource lib="ESP32-footprints-Shem-Lib" part="ESP32-WROOM" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4CE752</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>FL5160</value>
+      <footprint>Package_SO:SSOP-10_3.9x4.9mm_P1.00mm</footprint>
+      <libsource lib="DimmerComponent" part="FL5160" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4CE7D2</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>ACS712</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="DimmerComponent" part="ACS712" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4D0087</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AT42QT1010-TSHR</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
+      <libsource lib="SmartDimmer-rescue" part="AT42QT1010-TSHR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4D00B2</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>AT42QT1010-TSHR</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
+      <libsource lib="SmartDimmer-rescue" part="AT42QT1010-TSHR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4D012B</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="SmartDimmer-rescue" part="Conn_01x02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4D0192</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="SmartDimmer-rescue" part="Conn_01x02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4D0222</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="SmartDimmer-rescue" part="SW_Push" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4D027D</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="SmartDimmer-rescue" part="Conn_01x04" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4D033D</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>IPD50R399CP</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <libsource lib="DimmerComponent" part="IPD50R399CP" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4D089D</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>IPD50R399CP</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <libsource lib="DimmerComponent" part="IPD50R399CP" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4D08DA</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="SmartDimmer-rescue" part="Conn_01x02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4D0958</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="SmartDimmer-rescue" part="Conn_01x02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4D09CB</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="SmartDimmer-rescue" part="Conn_01x05" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4DEC50</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>Q_NPN_EBC</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4DEFC1</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>350K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4DF07F</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>35K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4DF0F8</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>3uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4DF491</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4DF561</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4E1516</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>2N7000</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <libsource lib="SmartDimmer-rescue" part="2N7000" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4E3A30</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>2M</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4E3F56</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4E4151</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>2M</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4E41C4</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4E7BD3</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4E8053</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4E9D22</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>3uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EA11D</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>2K2</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EB86C</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>1K2</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EBAFE</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EC0A5</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EEACF</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>FL5160</value>
+      <footprint>Package_SO:SSOP-10_3.9x4.9mm_P1.00mm</footprint>
+      <libsource lib="DimmerComponent" part="FL5160" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFA55</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>ACS712</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="DimmerComponent" part="ACS712" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFA5B</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="SmartDimmer-rescue" part="Conn_01x02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFA61</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>IPD50R399CP</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <libsource lib="DimmerComponent" part="IPD50R399CP" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFA67</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>IPD50R399CP</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <libsource lib="DimmerComponent" part="IPD50R399CP" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFA6D</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>Q_NPN_EBC</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFA79</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>350K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFA7F</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>35K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFA85</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFA8B</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <footprint>Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFA91</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>3uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFA97</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFA9D</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>22nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFAA3</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>2N7000</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <libsource lib="SmartDimmer-rescue" part="2N7000" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFAA9</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>2M</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFAAF</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFAB5</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>2M</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFABB</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFAC1</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFAC7</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFADB</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>3uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFAE1</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>2K2</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFAE7</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>1K2</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFAED</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFAF9</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EFB72</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="SmartDimmer-rescue" part="Conn_01x02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4F7163</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4F76F9</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7000</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <libsource lib="SmartDimmer-rescue" part="2N7000" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4FD087</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N7000</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <libsource lib="SmartDimmer-rescue" part="2N7000" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4FD65B</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4FEE2C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4FEECF</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4FEF7E</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4FF04B</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="SmartDimmer-rescue" part="Conn_01x02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C502449</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4ECE01</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4ED36A</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>4.7nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4ED733</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>4.7nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EDB7E</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EE52C</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EE609</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>TouchPad</value>
+      <footprint>TouchPad:TouchPadBig</footprint>
+      <libsource lib="DimmerComponent" part="TouchPad" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EEA83</tstamp>
+    </comp>
+    <comp ref="T2">
+      <value>TouchPad</value>
+      <footprint>TouchPad:TouchPadBig</footprint>
+      <libsource lib="DimmerComponent" part="TouchPad" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EF149</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>5pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EF4B0</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>5pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4EF8C6</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4F6633</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>68R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4F8160</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="SmartDimmer-rescue" part="Conn_01x04" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4FA524</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="SmartDimmer-rescue" part="Conn_01x02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4FB4EC</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x08</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="SmartDimmer-rescue" part="Conn_01x08" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4FB95A</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="SmartDimmer-rescue" part="Conn_01x02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4FD2FD</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>2nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5AD262</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>82M</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5AD777</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>82M</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5DCF7A</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>2nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C69C05E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_EBC">
+      <description>NPN transistor, emitter/base/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_EBC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DimmerComponent" part="ACS712">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ACS712</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IP+" type="input"/>
+        <pin num="2" name="IP+" type="input"/>
+        <pin num="3" name="IP-" type="input"/>
+        <pin num="4" name="IP-" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="FILTER" type="input"/>
+        <pin num="7" name="VIOUT" type="input"/>
+        <pin num="8" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="DimmerComponent" part="FL5160">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FL5160</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ZC_Monitor" type="input"/>
+        <pin num="2" name="DIM_Control" type="input"/>
+        <pin num="3" name="VDD" type="input"/>
+        <pin num="4" name="DIM_Mode" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="VS" type="input"/>
+        <pin num="7" name="Low_Power" type="input"/>
+        <pin num="8" name="OC_Sense2" type="input"/>
+        <pin num="9" name="DRV_Gate" type="input"/>
+        <pin num="10" name="OC_Sense1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="DimmerComponent" part="IPD50R399CP">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IPD50R399CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="DimmerComponent" part="TouchPad">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">TouchPad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Tin" type="input"/>
+        <pin num="2" name="Tout" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP32-footprints-Shem-Lib" part="ESP32-WROOM">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM</field>
+        <field name="Footprint">ESP32-footprints-Lib:ESP32-WROOM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="3V3" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="SENSOR_VP" type="input"/>
+        <pin num="5" name="SENSOR_VN" type="input"/>
+        <pin num="6" name="IO34" type="input"/>
+        <pin num="7" name="IO35" type="input"/>
+        <pin num="8" name="IO32" type="input"/>
+        <pin num="9" name="IO33" type="input"/>
+        <pin num="10" name="IO25" type="input"/>
+        <pin num="11" name="IO26" type="input"/>
+        <pin num="12" name="IO27" type="input"/>
+        <pin num="13" name="IO14" type="input"/>
+        <pin num="14" name="IO12" type="input"/>
+        <pin num="15" name="GND" type="input"/>
+        <pin num="16" name="IO13" type="input"/>
+        <pin num="17" name="SD2" type="input"/>
+        <pin num="18" name="SD3" type="input"/>
+        <pin num="19" name="CMD" type="input"/>
+        <pin num="20" name="CLK" type="input"/>
+        <pin num="21" name="SDO" type="input"/>
+        <pin num="22" name="SD1" type="input"/>
+        <pin num="23" name="IO15" type="input"/>
+        <pin num="24" name="IO2" type="input"/>
+        <pin num="25" name="IO0" type="input"/>
+        <pin num="26" name="IO4" type="input"/>
+        <pin num="27" name="IO16" type="input"/>
+        <pin num="28" name="IO17" type="input"/>
+        <pin num="29" name="IO5" type="input"/>
+        <pin num="30" name="IO18" type="input"/>
+        <pin num="31" name="IO19" type="input"/>
+        <pin num="32" name="NC" type="input"/>
+        <pin num="33" name="IO21" type="input"/>
+        <pin num="34" name="RXD0" type="input"/>
+        <pin num="35" name="TXD0" type="input"/>
+        <pin num="36" name="IO22" type="input"/>
+        <pin num="37" name="IO23" type="input"/>
+        <pin num="38" name="GND" type="input"/>
+        <pin num="39" name="GND-PAD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartDimmer-rescue" part="2N7000">
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7000</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-92_Molded_Narrow</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartDimmer-rescue" part="AT42QT1010-TSHR">
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AT42QT1010-TSHR</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="SNSK" type="passive"/>
+        <pin num="4" name="SNS" type="passive"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="SYNC" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartDimmer-rescue" part="Conn_01x02">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartDimmer-rescue" part="Conn_01x04">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartDimmer-rescue" part="Conn_01x05">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="power_in"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartDimmer-rescue" part="Conn_01x08">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SmartDimmer-rescue" part="SW_Push">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="DimmerComponent">
+      <uri>C:\Users\Nathann\Documents\Projet\DimmableSmartSwitch/DimmerComponent.lib</uri>
+    </library>
+    <library logical="ESP32-footprints-Shem-Lib">
+      <uri>C:\Users\Nathann\Documents\Projet\DimmableSmartSwitch/ESP32-footprints-Shem-Lib.lib</uri>
+    </library>
+    <library logical="SmartDimmer-rescue">
+      <uri>C:\Users\Nathann\Documents\Projet\DimmableSmartSwitch/SmartDimmer-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Gain">
+      <node ref="U1" pin="9"/>
+      <node ref="J9" pin="3"/>
+    </net>
+    <net code="2" name="A/R">
+      <node ref="U1" pin="8"/>
+      <node ref="J9" pin="5"/>
+    </net>
+    <net code="3" name="Out">
+      <node ref="U1" pin="12"/>
+      <node ref="J9" pin="4"/>
+    </net>
+    <net code="4" name="Current_Meas_1">
+      <node ref="R28" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="5" name="Current_Meas_2">
+      <node ref="U1" pin="11"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="6" name="TOUCH_1">
+      <node ref="U9" pin="1"/>
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="7" name="TOUCH_2">
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="8" name="RX_3V3">
+      <node ref="U1" pin="34"/>
+      <node ref="R2" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="9" name="DIM_Control_2">
+      <node ref="U1" pin="28"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="10" name="DIM_Control_1">
+      <node ref="R9" pin="2"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="11" name="DIM_MODE_1">
+      <node ref="U1" pin="30"/>
+      <node ref="R7" pin="2"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="12" name="DIM_MODE_2">
+      <node ref="R8" pin="2"/>
+      <node ref="U1" pin="31"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="R6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R29" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U11" pin="5"/>
+      <node ref="U10" pin="5"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U9" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="U1" pin="38"/>
+      <node ref="U1" pin="39"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C17" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="U1" pin="15"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="J9" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="J5" pin="4"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="14" name="VDD">
+      <node ref="J9" pin="2"/>
+    </net>
+    <net code="15" name="Net-(R30-Pad1)">
+      <node ref="R30" pin="1"/>
+      <node ref="T2" pin="1"/>
+    </net>
+    <net code="16" name="Net-(C20-Pad1)">
+      <node ref="C20" pin="1"/>
+      <node ref="T2" pin="2"/>
+    </net>
+    <net code="17" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="T1" pin="2"/>
+    </net>
+    <net code="18" name="Net-(C19-Pad2)">
+      <node ref="C19" pin="2"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="19" name="VCC">
+      <node ref="Q3" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="J7" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U9" pin="5"/>
+      <node ref="J3" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="20" name="Net-(C9-Pad1)">
+      <node ref="R15" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="21" name="Net-(C9-Pad2)">
+      <node ref="U2" pin="4"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="22" name="Net-(C19-Pad1)">
+      <node ref="C19" pin="1"/>
+      <node ref="U9" pin="3"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="23" name="Net-(R15-Pad1)">
+      <node ref="T1" pin="1"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="24" name="Net-(J6-Pad1)">
+      <node ref="J6" pin="1"/>
+      <node ref="U1" pin="24"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="25" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="26" name="Net-(R26-Pad1)">
+      <node ref="U10" pin="7"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C17-Pad1)">
+      <node ref="C17" pin="1"/>
+      <node ref="U10" pin="6"/>
+    </net>
+    <net code="28" name="Net-(J5-Pad3)">
+      <node ref="Q2" pin="3"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="29" name="Net-(J3-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="30" name="TX_3V3">
+      <node ref="R1" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="31" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="J10" pin="1"/>
+      <node ref="J11" pin="1"/>
+    </net>
+    <net code="32" name="Net-(D2-Pad2)">
+      <node ref="J11" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="J10" pin="2"/>
+    </net>
+    <net code="33" name="230VAC">
+      <node ref="R24" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="34" name="Net-(C8-Pad2)">
+      <node ref="U4" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="35" name="Net-(J2-Pad2)">
+      <node ref="U1" pin="6"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="36" name="Net-(J2-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="37" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="38" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="39" name="Net-(J1-Pad1)">
+      <node ref="U1" pin="14"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="40" name="Net-(J1-Pad2)">
+      <node ref="U1" pin="13"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="41" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="42" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="43" name="Net-(J4-Pad3)">
+      <node ref="U1" pin="21"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="44" name="Net-(J4-Pad4)">
+      <node ref="U1" pin="20"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="45" name="Net-(J4-Pad5)">
+      <node ref="J4" pin="5"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="46" name="Net-(J4-Pad6)">
+      <node ref="U1" pin="18"/>
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="47" name="Net-(J4-Pad7)">
+      <node ref="J4" pin="7"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="48" name="TOUCH_SYNC">
+      <node ref="U1" pin="33"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U9" pin="6"/>
+    </net>
+    <net code="49" name="Net-(J4-Pad8)">
+      <node ref="U1" pin="16"/>
+      <node ref="J4" pin="8"/>
+    </net>
+    <net code="50" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="51" name="Net-(C11-Pad2)">
+      <node ref="U3" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="52" name="Net-(J8-Pad2)">
+      <node ref="U1" pin="26"/>
+      <node ref="J8" pin="2"/>
+    </net>
+    <net code="53" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="54" name="Net-(J8-Pad1)">
+      <node ref="J8" pin="1"/>
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="55" name="Net-(SW1-Pad1)">
+      <node ref="U1" pin="25"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="56" name="Net-(C7-Pad1)">
+      <node ref="U4" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="57" name="Net-(C6-Pad1)">
+      <node ref="U3" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="58" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="59" name="Net-(Q5-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="60" name="Net-(R18-Pad2)">
+      <node ref="R18" pin="2"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="61" name="Net-(C8-Pad1)">
+      <node ref="R19" pin="1"/>
+      <node ref="J13" pin="1"/>
+      <node ref="U11" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U11" pin="1"/>
+    </net>
+    <net code="62" name="Net-(R17-Pad2)">
+      <node ref="U3" pin="9"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="63" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="64" name="Net-(C11-Pad1)">
+      <node ref="R16" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="J12" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U10" pin="2"/>
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="65" name="Net-(C15-Pad2)">
+      <node ref="R11" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U10" pin="8"/>
+      <node ref="C15" pin="2"/>
+    </net>
+    <net code="66" name="Net-(Q3-Pad3)">
+      <node ref="U3" pin="4"/>
+      <node ref="R11" pin="2"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="67" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="68" name="Net-(C13-Pad2)">
+      <node ref="U5" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U6" pin="1"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="69" name="Net-(C13-Pad1)">
+      <node ref="U5" pin="3"/>
+      <node ref="U6" pin="3"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="70" name="Net-(J12-Pad2)">
+      <node ref="U6" pin="2"/>
+      <node ref="J12" pin="2"/>
+      <node ref="U10" pin="4"/>
+      <node ref="U10" pin="3"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="71" name="Net-(Q5-Pad3)">
+      <node ref="Q5" pin="3"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="72" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2"/>
+      <node ref="U4" pin="6"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="73" name="Net-(Q6-Pad2)">
+      <node ref="U4" pin="7"/>
+      <node ref="R24" pin="2"/>
+      <node ref="Q6" pin="2"/>
+    </net>
+    <net code="74" name="Net-(R21-Pad2)">
+      <node ref="R21" pin="2"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="75" name="Net-(R20-Pad2)">
+      <node ref="R20" pin="2"/>
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="76" name="Net-(R19-Pad2)">
+      <node ref="U4" pin="10"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="77" name="Net-(C14-Pad2)">
+      <node ref="U8" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="78" name="Net-(C14-Pad1)">
+      <node ref="U8" pin="3"/>
+      <node ref="U7" pin="3"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="79" name="Net-(Q6-Pad3)">
+      <node ref="R25" pin="2"/>
+      <node ref="Q6" pin="3"/>
+    </net>
+    <net code="80" name="Net-(C18-Pad1)">
+      <node ref="U11" pin="6"/>
+      <node ref="C18" pin="1"/>
+    </net>
+    <net code="81" name="Net-(R27-Pad1)">
+      <node ref="U11" pin="7"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="82" name="Net-(J13-Pad2)">
+      <node ref="R21" pin="1"/>
+      <node ref="J13" pin="2"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U11" pin="4"/>
+      <node ref="U11" pin="3"/>
+    </net>
+    <net code="83" name="Net-(C16-Pad2)">
+      <node ref="U4" pin="3"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U11" pin="8"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+  </nets>
+</export>
