@@ -740,7 +740,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 5950 10600 5850
 Wire Wire Line
-	10300 5450 10300 5950
+	10300 5450 10300 5600
 Connection ~ 10300 5950
 Connection ~ 12000 6050
 Wire Wire Line
@@ -749,8 +749,6 @@ Wire Wire Line
 	10300 6450 10300 6300
 Wire Wire Line
 	10050 5950 10300 5950
-Wire Wire Line
-	10300 4650 10300 4850
 Wire Wire Line
 	10500 5050 10500 5650
 Wire Wire Line
@@ -844,11 +842,9 @@ Wire Wire Line
 Wire Wire Line
 	12150 2600 10600 2600
 Wire Wire Line
-	10600 2600 10600 2700
-Wire Wire Line
 	10600 3800 10600 3700
 Wire Wire Line
-	10300 3300 10300 3800
+	10300 3300 10300 3450
 Connection ~ 10300 3800
 Connection ~ 12000 3900
 Wire Wire Line
@@ -870,8 +866,6 @@ Wire Wire Line
 	10550 3400 10600 3400
 Wire Wire Line
 	10050 3900 10050 3800
-Wire Wire Line
-	10300 2500 11100 2500
 Wire Wire Line
 	13550 2500 13550 3000
 Wire Wire Line
@@ -1538,22 +1532,14 @@ $EndComp
 $Comp
 L Device:R R19
 U 1 1 5C5AD777
-P 10800 2700
-F 0 "R19" V 10880 2700 50  0000 C CNN
-F 1 "82M" V 10800 2700 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 10730 2700 50  0001 C CNN
-F 3 "" H 10800 2700 50  0001 C CNN
-	1    10800 2700
+P 10000 2600
+F 0 "R19" V 10080 2600 50  0000 C CNN
+F 1 "82M" V 10000 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9930 2600 50  0001 C CNN
+F 3 "" H 10000 2600 50  0001 C CNN
+	1    10000 2600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	10650 2700 10600 2700
-Connection ~ 10600 2700
-Wire Wire Line
-	10950 2700 11100 2700
-Wire Wire Line
-	11100 2700 11100 2500
-Connection ~ 11100 2500
 Wire Wire Line
 	14600 5650 14550 5650
 Wire Wire Line
@@ -1662,39 +1648,23 @@ Wire Wire Line
 	1750 9900 1750 10000
 Wire Wire Line
 	1650 8250 1650 8350
-Wire Wire Line
-	10600 2700 10600 3300
-Wire Wire Line
-	11100 2500 13550 2500
 Text Notes 10650 2500 0    50   ~ 0
 filtre passe haut sur le ZC (Zero cross detect)\npour permettre un fonctionnement meme en DC 
 $Comp
 L Device:R R18
 U 1 1 5C5DCF7A
-P 10500 4850
-F 0 "R18" V 10293 4850 50  0000 C CNN
-F 1 "82M" V 10384 4850 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 10430 4850 50  0001 C CNN
-F 3 "~" H 10500 4850 50  0001 C CNN
-	1    10500 4850
+P 9950 4800
+F 0 "R18" V 9743 4800 50  0000 C CNN
+F 1 "82M" V 9834 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9880 4800 50  0001 C CNN
+F 3 "~" H 9950 4800 50  0001 C CNN
+	1    9950 4800
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	10350 4850 10300 4850
-Connection ~ 10300 4850
-Wire Wire Line
-	10300 4850 10300 5050
-Wire Wire Line
-	10650 4850 10750 4850
-Wire Wire Line
-	10750 4850 10750 4750
-Wire Wire Line
-	10750 4850 10750 5300
 Wire Wire Line
 	10750 5300 10600 5300
 Wire Wire Line
 	10600 5300 10600 5450
-Connection ~ 10750 4850
 $Comp
 L Device:C C15
 U 1 1 5C69C05E
@@ -2347,10 +2317,10 @@ Wire Wire Line
 Wire Wire Line
 	4200 3950 4200 4050
 $Comp
-L Device:R RX1
+L Device:R R32
 U 1 1 5E0E0510
 P 4000 4750
-F 0 "RX1" V 4080 4750 50  0000 C CNN
+F 0 "R32" V 4080 4750 50  0000 C CNN
 F 1 "2K2" V 4000 4750 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3930 4750 50  0001 C CNN
 F 3 "" H 4000 4750 50  0001 C CNN
@@ -2543,4 +2513,34 @@ Wire Notes Line
 	7500 7000 7500 550 
 Wire Notes Line
 	7500 550  7400 550 
+Wire Wire Line
+	10300 2500 13550 2500
+Wire Wire Line
+	10150 2600 10600 2600
+Connection ~ 10600 2600
+Wire Wire Line
+	10600 2600 10600 3300
+Wire Wire Line
+	9850 2600 9850 3450
+Wire Wire Line
+	9850 3450 10300 3450
+Connection ~ 10300 3450
+Wire Wire Line
+	10300 3450 10300 3800
+Wire Wire Line
+	10300 4650 10300 5050
+Wire Wire Line
+	10750 4750 10750 4800
+Wire Wire Line
+	10750 4800 10100 4800
+Connection ~ 10750 4800
+Wire Wire Line
+	10750 4800 10750 5300
+Wire Wire Line
+	9800 4800 9800 5600
+Wire Wire Line
+	9800 5600 10300 5600
+Connection ~ 10300 5600
+Wire Wire Line
+	10300 5600 10300 5950
 $EndSCHEMATC
